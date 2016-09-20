@@ -47,3 +47,18 @@ main p:last-of-type em {
 	background-color: purple;
 	color:white;
 }
+
+/*blockquote + blockquote cite{
+	color:brown;
+	font-weight: bold;
+}*/
+
+footer {
+	border-top: 1px solid orange;
+	text-align: center;
+}
+
+blockquote[title] + blockquote cite {
+	color: brown;
+}
+		
