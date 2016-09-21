@@ -1,0 +1,108 @@
+/* part2.txt Vani Thilagar */
+1. .gridcell[id="danger"]
+
+				<tr>
+					<td class="gridcell" id="peace">Alfreds Futterkiste</td>
+					<td class="gridcell" id="calm">Maria Anders</td>
+					<td class="gridcell" id="danger">Germany</td>
+				</tr>
+
+2. .warning strong:not(.dead)
+
+				<td class="warning"><strong class="alive">Centro comercial Moctezuma</strong></td>
+				<td class="warning"><strong class="dead">Francisco Chang </strong></td>
+
+3. body#wrapper > a:first-child:hover
+	<body id ="wrapper">
+			<a href="https://www.google.com"><strong>Google</strong></a>
+			<a href="https://www.facebook.com">Facebook</a>
+			<a href="https://www.linkedin.com">LinkedIn</a>
+	</body>
+
+4. .bb8.r2d2 #c3po
+		<p class="bb8 r2d2"><a href="http://starwars.wikia.com/wiki/R2-D2" id="r2d2">This is the first robot</a></p>
+		<p class="bb8 r2d2">
+		<a href="http://starwars.wikia.com/wiki/C-3PO" id="c3po">This is the 2nd robot</a></p>
+
+5. .captain.picard * #riker 
+		<div class="captain picard">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <strong>Nihil sint <span id="riker">tenetur culpa</span> sit ad laboriosam</strong>, cumque illum autem pariatur esse.</p>
+		</div>
+
+6. blockquote[title]:first-line
+
+		 <div>
+		 <blockquote>
+            &quot;Able was I ere I saw Elba&quot;
+            <cite>Napolean Bonaparte</cite>
+          </blockquote>
+          	<blockquote title="shaw">
+            &quot;My way to joke is to tell the truth, its the funniest joke in the world.&quot;
+            <cite>George Bernard Shaw</cite>
+          </blockquote>
+          </div>
+
+  7.article p:nth-of-type(even)
+  		<article>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat aperiam provident voluptates pariatur, totam est asperiores perspiciatis odit voluptatum eveniet aut perferendis consequuntur iure rerum aliquid dolore qui eos quod.</p>
+			<p>Saepe inventore maiores aliquid, magnam ipsum, sequi possimus nulla cupiditate reiciendis, itaque quam ea! Eius eaque sequi ducimus nobis, cupiditate totam molestias maiores esse, dignissimos repellat itaque accusantium exercitationem! Quaerat.</p>
+			<p>Quam ullam eius deserunt molestiae, delectus repudiandae qui consequuntur, perferendis voluptate magnam impedit nisi earum minus eum corporis ipsa sunt placeat accusamus quod illo dolorum facere magni! Accusantium, iste, distinctio!</p>
+			<p>Architecto labore porro quod, amet, at perspiciatis ducimus suscipit. Blanditiis expedita, ex, recusandae quis molestiae dolorum culpa libero facilis, ratione beatae neque. Consequuntur nobis accusamus quisquam, ipsa reiciendis itaque facilis?</p>
+			<p>Voluptates, atque, obcaecati. Soluta, obcaecati quam recusandae molestiae qui dolor assumenda nisi maiores quae earum! Veritatis excepturi, reiciendis sequi neque debitis sunt id voluptatibus fugit reprehenderit, autem odio similique, quia!</p>
+			<p>Dignissimos, delectus. Animi est similique molestias rem laborum iusto dignissimos ducimus obcaecati, quos hic voluptatum odit enim, pariatur commodi? Reiciendis nemo id officia ad tempore perferendis a voluptatem. Corporis, magnam.</p>
+			<p>Quisquam unde qui nemo perferendis id sunt magni vel possimus sint ut voluptas nisi voluptatum, neque! Accusamus culpa in repudiandae aliquid dolorem. Inventore, officiis vel hic magnam aperiam omnis neque!</p>
+			<p>Quas, quia quaerat, repudiandae neque veniam quos tempora fugit soluta a unde perferendis modi corporis distinctio nisi ipsa ratione aut animi voluptatibus odit, deleniti totam magnam adipisci atque. Porro, impedit?</p>
+			<p>Accusamus aut, repellendus deserunt soluta sed itaque officiis perferendis nemo commodi ipsa mollitia labore vel! Illo itaque eum at dolor ex placeat quisquam iusto modi tempore, illum quasi odio unde.</p>
+			<p>Nostrum unde hic doloribus libero molestias, excepturi, officiis in esse harum velit, perspiciatis pariatur mollitia saepe ab quo molestiae culpa voluptas! Sed, porro, fugit vitae ipsa amet repellat dolore nam.</p>
+		</article>
+
+8. .verylong#list
+		<ul class="verylong" id="list">
+			<li class="item001">Header 1</li>
+			<li class="item002">Header 2</li>
+			<li class="item003">Header 3</li>
+			<li class="item004">Header 4</li>
+			<li class="item005">Header 5</li>
+			<li class="item006">Header 6</li>
+		</ul>
+
+9. .verylong #list
+		<ul class="verylong">
+			<li class="item001">Header 1</li>
+			<li class="item002"  id="list">Header 2</li>
+			<li class="item003">Header 3</li>
+			<li class="item004">Header 4</li>
+			<li class="item005">Header 5</li>
+			<li class="item006">Header 6</li>
+		</ul>
+
+10. ul > li + li > a *
+
+		<ul>
+			<li>
+				<a href=""><strong>Header 1</strong></a>
+				<a href=""><em>Header 2</em></a>
+				<a href="">Header 3</a>
+			</li>
+			<li>
+				<a href=""><strong>Header 1</strong></a>
+				<a href=""><em>Header 2</em></a>
+				<a href="">Header 3</a>
+			</li>
+			<li>
+				<a href=""><strong>Header 1</strong></a>
+				<a href=""><em>Header 2</em></a>
+				<a href="">Header 3</a>
+			</li>
+			<li>
+				<a href=""><strong>Header 1</strong></a>
+				<a href=""><em>Header 2</em></a>
+				<a href="">Header 3</a>
+			</li>
+		</ul>
+
+
+
+
+
+
