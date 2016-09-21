@@ -1,0 +1,13 @@
+ /* Assignment1 - part3  Vani Thilagar */
+    id-class-element
+
+1.  1-1-0		.gridcell[id=”danger”]
+2. 	0-2-1		 .warning strong:not(.dead)
+3.  1-2-2		body#wrapper > a:first-child:hover
+4.  1-2-0		.bb8.r2d2 #c3po
+5.  1-2-0		.captain.picard * #riker
+6.  0-1-1		blockquote[title]:first-line  /* CHANGED SEPTEMBER 15 */
+7.  0-1-2		article p:nth-of-type(even)
+8.  1-1-0		.verylong#list
+9.  1-1-0		.verylong #list
+10. 0-0-4		ul > li + li > a *
