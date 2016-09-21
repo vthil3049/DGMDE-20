@@ -24,25 +24,31 @@ nav a[href^= "http"]::after{
 	content:"";
 }
 
-td {
-	padding: 0.5em;
+
+table {
+    border-style: double;
+    border-width: medium;
 }
 
-table, tr{
+tr{
 	background-color: pink;
-   border: 1px double black;
+  /* border: 1px double black; */
 }
+
 
 th:only-of-type{
 	color:green;
 	font-style:italic;
 	text-align:left;
+	padding: 1em;
 }
 
 table tr:nth-child(odd) {
    background-color: #ccc;
 }
-
+td {
+	padding: 1em;
+}
 main p:last-of-type em {
 	background-color: purple;
 	color:white;
