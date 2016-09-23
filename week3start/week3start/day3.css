@@ -63,7 +63,8 @@ body#wrapper > a:first-child:hover {
 }
 
 .bb8.r2d2 #c3po::after {
-	content:"This is C3PO";
+	content:"(This is C3PO)";
+	font-style: italic;
 }
 
 .captain.picard * #riker{
@@ -85,7 +86,7 @@ article p:nth-of-type(even){
 
 .verylong #list {
 	color: purple;
-	background-color: yellow;
+	background-color: cyan;
 }
 
 ul > li + li > a * {
