@@ -7,16 +7,16 @@ html {
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
-	background-color: #ffc;
+	background-color: cornsilk;
 	padding: 0;
 	margin: 0;
 }
 .wrapper {
 	border: 2px solid orange;
-	width: 900px;
+	width: 90%;
 	padding: 10px;
 	overflow: auto;
-	margin: 0 auto;
+	margin: 0.1em auto;
 }
 header {
 	background-color: navy;
@@ -48,11 +48,12 @@ img {
 /* floats: you can combine with other styles, shown here for clarity */
 aside {
 	width: 25%;
-	float: left;
-	padding-top: 80px;
+	padding-top: 100px;
 }
 article {
-	padding-top: 80px;
+	width: 70%;
+	padding-top: 100px;
+	border: 2px solid orange;
 }
 
 header h1 {
@@ -80,9 +81,18 @@ nav a {
 	display: inline-block;
 	text-decoration: none;
 	color: white;
+	padding: 0.2em 0.75em;
 }
 nav a:hover {
 	color: #ffc;
+	background-color: maroon;
+}
+
+footer {
+	background-color: navy;
+	color:white;
+	text-align: center;
+	padding: 1em 5em;
 }
 
 
