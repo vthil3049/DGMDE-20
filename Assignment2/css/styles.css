@@ -11,26 +11,55 @@ body {
 	padding: 0;
 	margin: 0;
 }
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Droid Serif', serif;
+}
+
 .wrapper {
 	border: 2px solid orange;
 	width: 90%;
-	padding: 10px;
+	padding: 200px auto ;
 	overflow: auto;
 	margin: 0.1em auto;
 }
+.banner {
+		overflow: auto;
+}
+.banner h1 {
+	font-size: 250%;
+	float:left;
+}
+.social {
+	float:right;
+	margin-right: 2em;
+}
+.social a{
+	color:cornsilk;
+}
+.social a:hover{
+	color:yellow;
+}
 header {
 	background-color: navy;
-	color: white;
+	color: cornsilk;
 	width: 100%;
 	overflow: auto;
-	position: fixed;
+	position: fixed; 
 }
 header h1 {
-	margin: 0;
-	padding: 0.5em; 
+	margin: 1em 0 0 1.5em;
+	padding: 0em 0 0 1em; 
+	display:inline-block;
+
+	/*border: 1px solid white; */
 }
-img {
+header img {
+	float:left;
 	border: 2px solid red;
+	border-radius: 100px;
+	margin: 10px 0 10px 40px;
+
 }
 .floatleft {
 	float: left;
@@ -48,12 +77,13 @@ img {
 /* floats: you can combine with other styles, shown here for clarity */
 aside {
 	width: 25%;
-	padding-top: 100px;
+	padding-top: 150px;
 }
 article {
 	width: 70%;
-	padding-top: 100px;
+	padding: 150px 5px 5px 5px;
 	border: 2px solid orange;
+		overflow: auto;
 }
 
 header h1 {
@@ -61,11 +91,12 @@ header h1 {
 	float: left;
 }
 nav {
+	font-family: 'Droid Serif', serif;
 	font-size: 1.2em;
 	font-weight: bold;
-	width: 70%;
-	float: left;
-	padding-top: 1.5em;
+	width: 50%;
+	float: right;
+	padding-top: 1.5em; 
 }
 nav ul {
 	padding: 0;
@@ -75,22 +106,24 @@ nav ul {
 }
 nav li {
 	display: inline;
-	padding-right: 1.3em;
+	padding-right: 0.5em;
 }
 nav a {
 	display: inline-block;
 	text-decoration: none;
-	color: white;
-	padding: 0.2em 0.75em;
+	color: cornsilk;
+	padding: 0.2em 0.6em;
 }
 nav a:hover {
 	color: #ffc;
 	background-color: maroon;
 }
-
+.selected {
+	border-top: 2px solid cornsilk;
+}
 footer {
 	background-color: navy;
-	color:white;
+	color:cornsilk;
 	text-align: center;
 	padding: 1em 5em;
 }
