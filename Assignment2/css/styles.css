@@ -46,7 +46,7 @@ header {
 	width: 100%;
 	overflow: auto;
 	position: fixed; 
-
+border: 3px solid maroon;
 	background: rgba(0,0,128,1);
 background: -moz-linear-gradient(left, rgba(0,0,128,1) 0%, rgba(32,124,229,1) 50%, rgba(0,0,128,1) 100%);
 background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,128,1)), color-stop(50%, rgba(32,124,229,1)), color-stop(100%, rgba(0,0,128,1)));
@@ -88,6 +88,9 @@ header img {
 aside {
 	width: 25%;
 	padding-top: 150px;
+}
+aside h2, figcaption {
+	text-align: center;
 }
 article {
 	width: 70%;
@@ -193,7 +196,30 @@ footer{
     -o-border-image: url(border.png) 30 round; /* Opera 11-12.1 */
     border-image: url(border.png) 30 round;
 }
+.textcenter {
+	text-align: center;
+}
 
+table {
+	border: 2px dotted;
+}
+
+th, td {
+	border: 1px dotted;
+}
+th {
+	background-color: burlywood;
+	font-size: 150%;
+	padding: 1em;
+}
+td {
+overflow: auto;
+	padding:5px;
+}
+
+td a img {
+	margin: auto;
+}
 
 
 
