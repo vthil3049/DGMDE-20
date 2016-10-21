@@ -47,13 +47,7 @@ header {
 	overflow: auto;
 	position: fixed; 
 border: 3px solid maroon;
-	background: rgba(0,0,128,1);
-background: -moz-linear-gradient(left, rgba(0,0,128,1) 0%, rgba(32,124,229,1) 50%, rgba(0,0,128,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,128,1)), color-stop(50%, rgba(32,124,229,1)), color-stop(100%, rgba(0,0,128,1)));
-background: -webkit-linear-gradient(left, rgba(0,0,128,1) 0%, rgba(32,124,229,1) 50%, rgba(0,0,128,1) 100%);
-background: -o-linear-gradient(left, rgba(0,0,128,1) 0%, rgba(32,124,229,1) 50%, rgba(0,0,128,1) 100%);
-background: -ms-linear-gradient(left, rgba(0,0,128,1) 0%, rgba(32,124,229,1) 50%, rgba(0,0,128,1) 100%);
-background: linear-gradient(to right, rgba(0,0,128,1) 0%, rgba(32,124,229,1) 50%, rgba(0,0,128,1) 100%);
+
 /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000080', endColorstr='#000080', GradientType=1 ); */
 }
 
@@ -89,8 +83,11 @@ aside {
 	width: 25%;
 	padding-top: 150px;
 }
-aside h2, figcaption {
+aside h2 {
 	text-align: center;
+}
+figcaption {
+	text-align:center;
 }
 article {
 	width: 70%;
@@ -181,35 +178,42 @@ footer {
 	text-align: center;
 	padding: 1em 5em;
 	border-top: 50px solid red;
-	border-image: url(Diwali_odisha_rangoli.jpg);
+
+		background: rgba(0,0,128,1);
+background: -moz-linear-gradient(left, rgba(0,0,128,1) 0%, rgba(32,124,229,1) 50%, rgba(0,0,128,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,128,1)), color-stop(50%, rgba(32,124,229,1)), color-stop(100%, rgba(0,0,128,1)));
+background: -webkit-linear-gradient(left, rgba(0,0,128,1) 0%, rgba(32,124,229,1) 50%, rgba(0,0,128,1) 100%);
+background: -o-linear-gradient(left, rgba(0,0,128,1) 0%, rgba(32,124,229,1) 50%, rgba(0,0,128,1) 100%);
+background: -ms-linear-gradient(left, rgba(0,0,128,1) 0%, rgba(32,124,229,1) 50%, rgba(0,0,128,1) 100%);
+background: linear-gradient(to right, rgba(0,0,128,1) 0%, rgba(32,124,229,1) 50%, rgba(0,0,128,1) 100%);
 }
 
 footer{
-	border-top: 50px solid red;
+	border-top: 10px solid red;
 	border-image: url(Diwali_odisha_rangoli.jpg);
 }
 
-#borderimg1 {
+/*#borderimg1 {
     border: 10px solid red;
     padding: 15px;
-    -webkit-border-image: url(border.png) 30 round; /* Safari 3.1-5 */
+    -webkit-border-image: url(border.png) 30 round;  Safari 3.1-5 
     -o-border-image: url(border.png) 30 round; /* Opera 11-12.1 */
-    border-image: url(border.png) 30 round;
-}
+   /* border-image: url(border.png) 30 round;
+}*/
 .textcenter {
 	text-align: center;
 }
 
 table {
-	border: 2px dotted;
+	border: 2px solid;
 }
 
 th, td {
-	border: 1px dotted;
+	border: 1px solid;
 }
-th {
+thead th {
 	background-color: burlywood;
-	font-size: 150%;
+	font-size: 110%;
 	padding: 1em;
 }
 td {
