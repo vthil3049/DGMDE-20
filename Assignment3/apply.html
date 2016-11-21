@@ -17,10 +17,10 @@
 			</div>
 			<nav>
 				<ul>
-					<li><a href="./home.html" class="selected">Home</a></li>
+					<li><a href="./home.html" >Home</a></li>
 					<li><a href="./classical.html">Classical Dances</a></li>
 					<li><a href="./folk.html">Folk Dances</a></li>
-					<li><a href="./apply.html">Events</a></li>				
+					<li><a href="./apply.html" class="selected">Events</a></li>				
 				</ul>
 			</nav>
 		</div>
@@ -36,44 +36,57 @@
 		<article>
 			<h2 class="textcenter">Advertise your show on our site</h2>
 			<h3>If you wish to advertise your show on our site, please fill out the form below</h3>
-			<p>Free for other qualifying non-profits. A charge of $50.00 per event for others.</p>		
+			<p>Free for qualifying non-profits. A charge of $50.00 per event for others.</p>		
 			<form action="" method="">
 				<fieldset>
 					<legend>Your contact information</legend>
 					<div class="field">
 						<label for="name">Your name(*)</label>
-						<input type="text" id="name" aria-required="true" autofocus><br>
+						<input type="text" id="name" name="name" aria-required="true" autofocus><br>
 					</div>
 					<div class="field">
 						<label for="org_name">Organization Name(*)</label>
-						<input type="text" id="org_name" aria-required="true"><br>
-						<label>Organization type</label>
-						<input type="radio" name="org_type" value="for_profit" checked aria-checked="true" aria-labelledby="for_profit" role="radiogroup"> For profit 
-						<input type="radio" name="org_type" value="non_profit" aria-labelledby="non_profit" role="radiogroup"  aria-checked="false"> Non-profit 				
-
+						<input type="text" id="org_name" aria-required="true" required><br>
+					</div>
+					<div class="field">
+						<label for="org_website">Your web site</label>
+						<input type="url" name="org_website" id="org_website" placeholder="http://www.example.com"><br>
 					</div>					
 					<div class="field">
 						<label for="phone">Phone number</label>
-						<input type="tel" id="phone" aria-required="false" placeholder="123-456-7890"><br>
+						<input type="tel" id="phone" aria-required="true" placeholder="123-456-7890" required><br>
 					</div>
 
 					<div class="field">
 						<label for="email">Email</label>
-						<input type="email" id="email" aria-required="false"><br>
+						<input type="email" id="email" aria-required="true" required><br>
 					</div>
-
+					<div class="field">						
+						<label>Organization type</label>
+						<input type="radio" name="org_type" value="for_profit" checked aria-checked="true" aria-labelledby="for_profit" role="radiogroup"> For profit 
+						<input type="radio" name="org_type" value="non_profit" aria-labelledby="non_profit" role="radiogroup"  aria-checked="false"> Non-profit 
+										
+					</div>	
 					<div class="field">
-						<label for="date">Event date</label>
-						<input type="date" id="date" aria-required="false"><br>
-					</div>
-
+						<p id="pay_info">Please make a check for $50.00 payable to: 'DancesOfIndia.org" and mail it to:
+						<address id="pay_address">
+						40 Main Street<br>
+						Concord, MA 02333
+						</address>
+						</p>	
+					</div>											
 				</fieldset>
 				<fieldset>
 					<legend>About your event</legend>
 					<div class="field">
 						<label for="event_name">Name of your event (*)</label>
-						<input type="text" id="event_name" aria-required="true" autofocus><br><br>
+						<input type="text" id="event_name" aria-required="true" required><br><br>
 					</div>
+
+					<div class="field">
+						<label for="date">Event date(*)</label>
+						<input type="date" id="date" aria-required="true" required><br>
+					</div>	
 
 					<div class="field">
 						Dance Type
@@ -82,8 +95,8 @@
 					</div>
 
 					<div class="field">
-						<p>Subcategory</p>
-						<select id="sub_type">
+						<label for="sub_type">Subcategory</label>
+						<select id="sub_type" name="sub_type" aria-required="true">
 							<option selected>Select one...</option>
 							<option value="bharatanatyam">Bharatanatyam</option>
 							<option value="kuchipudi">Kuchipudi</option>
@@ -92,10 +105,14 @@
 						</select>
 					</div>
 
-					<label>Special requests:<br>
-						<textarea id="comments" placeholder="Any additional instructions for us?"></textarea>
-					</label>
-					<button type="submit">Submit</button>
+	<div class="field">
+		<label for="description">Brief description (*)</label>
+		<textarea id="desc" name="description" rows="4" cols="50" placeholder="This text will appear in the ad" aria-required="true"></textarea> 						
+	</div>
+
+					<div class="field textcenter">
+						<button type="submit">Submit</button>
+					</div>
 				</fieldset>
 			</form>
 		</article>
@@ -106,6 +123,6 @@
 		<h5><i class="fa fa-copyright" aria-hidden="true"></i>&nbsp; www.DancesOfIndia.org </h5>
 	</footer>
 	<script   src="http://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
-	<script src="form-end.js"></script>						
+	<script src="js/eventform.js"></script>						
 </body>
 </html>

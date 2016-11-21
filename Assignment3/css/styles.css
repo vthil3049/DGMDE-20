@@ -180,17 +180,17 @@ footer {
 	color:cornsilk;
 	text-align: center;
 	padding: 1em 5em;
-	border-top: 50px solid red;
+	border-top: 50px solid maroon;
 	border-image: url(Diwali_odisha_rangoli.jpg);
 }
 
-footer{
+/*footer{
 	border-top: 50px solid red;
 	border-image: url(Diwali_odisha_rangoli.jpg);
-}
+}*/
 
 #borderimg1 {
-    border: 10px solid red;
+    border: 10px solid maroon;
     padding: 15px;
     -webkit-border-image: url(border.png) 30 round; /* Safari 3.1-5 */
     -o-border-image: url(border.png) 30 round; /* Opera 11-12.1 */
@@ -225,10 +225,19 @@ td a img {
 	margin-bottom: 0.5em	;
 }
 
+
+.half {
+	float:left;
+	clear:left;
+	width: 28em;
+	border: 1px solid black;
+}
 label {
 float: left;
+clear:left;
 width: 15em;
 margin-right: 1em;
+
 }
 
 fieldset legend {
@@ -238,8 +247,14 @@ fieldset legend {
 	padding: 0 0.2;
 }
 
+#sub_type {
+	width: 20em;
+}
 
-
+.error {
+	color:red;
+	font-weight:bold;
+}
 
 
 
