@@ -1,0 +1,24 @@
+Part 1
+The <form> tag is located at this HTML URL: http://vanit.sgedu.site/E20/A3/apply.html____ on line numbers: _39____
+The line numbers for two HTML5 form elements are: __44, 48_________
+My two jQuery-driven interactive elements in the form include _click(), change()___ 
+Located at this HTML URL: __http://vanit.sgedu.site/E20/A3/apply.html__ 
+The line numbers in the JavaScript file -eventform.js - where this code is found are: _73, 122_____
+My site’s click effect is _dynamic change in the rate display data when user selects a non-profit/For profit option___ 
+Located at this HTML URL: _http://vanit.sgedu.site/E20/A3/apply.html___ 
+The line numbers in the JavaScript file where this code is found are: _eventform.js line 73-85_____
+My site’s hover effect is ____ 
+Located at this HTML URL: ____ 
+The line numbers in the JavaScript file where this code is found are: ______
+My if/else choice is _if dance type 'Classical'/'Folk' is selected a different set of options are loaded into the options box___ 
+Located at this HTML URL: _http://vanit.sgedu.site/E20/A3/apply.html 96-105___ 
+The line numbers in the JavaScript file where this code is found are: _eventform.js - 87-106_____
+My effect that requires filtering the results is ____ 
+Located at this HTML URL: ____ 
+The line numbers in the JavaScript file where this code is found are: ______
+Two more effects of my choice are ____ 
+Located at this HTML URL: ____ 
+The line numbers in the JavaScript file where this code is found are: ______
+
+Part 2 
+jCanvas not complete yet

@@ -2,20 +2,64 @@
 
 $(document).ready(function(){
 
-var classical = [
-"bharatanatyam",
-"kuchipudi",
-"mohiniattam",
-"kathak"
-];
+	var classical = [
+	"bharatanatyam",
+	"kuchipudi",
+	"mohiniattam",
+	"kathak"
+	];
 
-var folk = [
-"bhangra",
-"lavani",
-"kolattam",
-"kathak"
-];
+	var folk = [
+	"bhangra",
+	"lavani",
+	"kolattam",
+	"kathak"
+	];
 
+	//Upcoming events
+	var uevents = [
+		{ 
+		  "name": "Bollywood Glitz 2017",
+		  "organization":"http://www.Desilifeboston.com",
+		  "date": "12/31/2016",
+		  "description":"This is the biggest Bollywood new years party in Boston",
+		  "url":"http://www.desilifeboston.com/" 
+		},
+
+		{ 
+		   "name": "Pongal Vizha 2017 in Litteton",
+		  "organization":"New England Tamil Sangam",
+		  "date": "2/4/2017",
+		  "description":"At Litteton HS",
+		  "url":"http://new.netamilsangam.org/new/index.php?lang=en" 	  
+		},
+
+		{ 
+		   "name": "33rd Annual Indian Music & Dance Competition",
+		  "organization":"Dances of India",
+		  "date": "11/25/2016",
+		  "description":"Annual three-day long dance and music competition has been successfully run for the past 32 years",
+		  "url" : "http://www.indianmusiccompetition.com"
+		}
+	];
+
+	var $event_list = $('#event_list');
+	$.each(uevents, function(index, value) { 
+		//for each event create a div
+		$newdiv = $("<div></div>", {id: "event"+index.toString()});
+		$newdiv.addClass('eventClass');
+
+		$('#event_list').append($newdiv);
+		var newEvent = value;
+		$.each(newEvent, function(key, evalue) { 
+			$title = $("<h5>"+key.toUpperCase()+":"+evalue+"</h5>" );
+			$newdiv.append($title);
+
+		});
+		var hr =  $("<hr>");
+		$newdiv.append(hr);
+
+    });
 
 
 	$("input[name='name']").focusout(function(){
