@@ -13,13 +13,12 @@
 			<img id="Nataraj-logo" src="img/Shiva2-small-grayscale.jpg" alt="Nataraj -Image of Shiva as Lord of Dance" title="Shiva as Nataraj- Lord of Dance" />
 			<h1>Dances of India</h1>
 			<div class="social">
-				<h4>Connect with us&nbsp; <a href="https://www.facebook.com"><i class="fa fa-facebook-square fa-2x"></i></a>&nbsp; <a href="https://www.pinterest.com"><i class="fa fa-pinterest fa-2x" aria-hidden="true"></i></i></a></h4>
+				<h4>Connect with us&nbsp; <a href="https://www.facebook.com"><i class="fa fa-facebook-square fa-2x"></i></a>&nbsp; <a href="https://www.pinterest.com"><i class="fa fa-pinterest fa-2x" aria-hidden="true"></i></a></h4>
 			</div>
 			<nav>
 				<ul>
 					<li><a href="./home.html">Home</a></li>
 					<li><a href="./classical.html" class="selected">Classical Dances</a></li>
-					<li><a href="./home.html">Folk Dances</a></li>
 					<li><a href="./apply.html">Events</a></li>						
 				</ul>
 			</nav>
@@ -40,14 +39,23 @@
 				<a title="By Aruna at ml.wikipedia [GFDL (http://www.gnu.org/copyleft/fdl.html), CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/) or CC BY-SA 2.5-2.0-1.0 (http://creativecommons.org/licenses/by-sa/2.5-2.0-1.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AHasthamudra19.JPG"><img width="256" alt="Hasthamudra19" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Hasthamudra19.JPG/256px-Hasthamudra19.JPG" class="floatleft"/></a>
 				<figcaption>'Mudra'-hand gesture for a flower</figcaption>
 			</figure>
-			<figure>
+			<div>
+			<h3>Click the button to see rangoli designs at a dance event</h3>
+			<canvas width='250' height='250' id="dcanvas">
+				
+			</canvas>
+			<div>
+				<button id="btnDraw">Draw</button>&nbsp;&nbsp;&nbsp;&nbsp;<button id='btnClear'>Clear</button>
+			</div>
+			</div>
+			<!-- <figure>
 				<a title="By Brendan from Vancouver , Canada (Bharatanatyam) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ABharatanatyam_male_dancer.jpg"><img width="256" alt="Bharatanatyam male dancer" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Bharatanatyam_male_dancer.jpg/256px-Bharatanatyam_male_dancer.jpg" class="floatleft"/></a>
 				<figcaption>Male Bharatnatyam dancer</figcaption>
 			</figure>
 			<figure>
 				<a title="By Pradeep Adwani (Our Own Stage Performance) [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AKathak_mast.jpg"><img width="256" alt="Kathak mast" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Kathak_mast.jpg/256px-Kathak_mast.jpg" class="floatleft"/></a>
 				<figcaption>Kathak Dancers</figcaption>
-			</figure>
+			</figure> -->
 		</aside>
 		<article class="floatleft">
 			<h1>Dance Arts of the Indian subcontinent</h1>
@@ -174,6 +182,7 @@
 			<h5><i class="fa fa-copyright" aria-hidden="true"></i>&nbsp; www.DancesOfIndia.org </h5>
 		</footer>
 	<script   src="http://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+	<script src="js/jcanvas.min.js"></script>
 	<script src="js/classical.js"></script>				
 	</body>
 	</html>

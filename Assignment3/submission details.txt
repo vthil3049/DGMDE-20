@@ -7,9 +7,9 @@ The line numbers in the JavaScript file -eventform.js - where this code is found
 My site’s click effect is _dynamic change in the rate display data when user selects a non-profit/For profit option___ 
 Located at this HTML URL: _http://vanit.sgedu.site/E20/A3/apply.html___ 
 The line numbers in the JavaScript file where this code is found are: _eventform.js line 73-85_____
-My site’s hover effect is ____ 
-Located at this HTML URL: ____ 
-The line numbers in the JavaScript file where this code is found are: ______
+My site’s hover effect is at the table titled 'Dances of the various regions' of thumbnails. The images expand and contract on hover.
+Located at this HTML URL: http://vanit.sgedu.site/E20/A3/classical.html____ 
+The line numbers in the JavaScript file where this code is found are: _js/classical.js lines 15-33_____
 My if/else choice is _if dance type 'Classical'/'Folk' is selected a different set of options are loaded into the options box___ 
 Located at this HTML URL: _http://vanit.sgedu.site/E20/A3/apply.html 96-105___ 
 The line numbers in the JavaScript file where this code is found are: _eventform.js - 87-106_____

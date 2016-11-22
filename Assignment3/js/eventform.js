@@ -62,6 +62,28 @@ $(document).ready(function(){
     });
 
 
+	//Slide the events up and down
+     var slideMeUp = function(targetElement, speed){
+
+       $(targetElement).slideUp(speed, function()
+       			{
+            		slideMeUp(this, speed);
+            	});
+        }
+    
+     var slideMeDown = function(targetElement, speed){
+
+       $(targetElement).slideDown(speed, function()
+       			{
+            		slideMeDown(this, speed);
+            	}).delay( 5000 );
+        }    
+	slideMeUp(".eventClass", 5000);
+	slideMeDown(".eventClass", 5000);	
+
+
+
+
 	$("input[name='name']").focusout(function(){
 		if ($(this).val().length == 0) {
 			$('label[for="name"]').html('Please enter your name.').addClass('error');

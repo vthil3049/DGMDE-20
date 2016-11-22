@@ -19,7 +19,6 @@
 				<ul>
 					<li><a href="./home.html" >Home</a></li>
 					<li><a href="./classical.html">Classical Dances</a></li>
-					<li><a href="./home.html">Folk Dances</a></li>
 					<li><a href="./apply.html" class="selected">Events</a></li>				
 				</ul>
 			</nav>
@@ -33,10 +32,10 @@
 			</div>
 		</aside>
 		<article>
-			<h2 class="textcenter">Advertise your show on our site</h2>
-			<h3>If you wish to advertise your show on our site, please fill out the form below</h3>
+			<h2 class="textcenter">Advertise your event on our site</h2>
+			<h3>If you wish to advertise your event on our site, please fill out the form below</h3>
 			<p>Free for qualifying non-profits. A charge of $50.00 per event for others.</p>		
-			<form action="" method="">
+			<form action="#" method="post">
 				<fieldset>
 					<legend>Your contact information</legend>
 					<div class="field">
@@ -62,17 +61,17 @@
 					</div>
 					<div class="field">						
 						<label>Organization type</label>
-						<input type="radio" name="org_type" value="for_profit" checked aria-checked="true" aria-labelledby="for_profit" role="radiogroup"> For profit 
-						<input type="radio" name="org_type" value="non_profit" aria-labelledby="non_profit" role="radiogroup"  aria-checked="false"> Non-profit 
+						<input type="radio" name="org_type" value="for_profit" checked > For profit 
+						<input type="radio" name="org_type" value="non_profit" > Non-profit 
 										
 					</div>	
 					<div class="field">
-						<p id="pay_info">Please make a check for $50.00 payable to: 'DancesOfIndia.org" and mail it to:
+						<p id="pay_info">Please make a check for $50.00 payable to: 'DancesOfIndia.org" and mail it to:						</p>
 						<address id="pay_address">
 						40 Main Street<br>
 						Concord, MA 02333
 						</address>
-						</p>	
+
 					</div>											
 				</fieldset>
 				<fieldset>
@@ -84,13 +83,13 @@
 
 					<div class="field">
 						<label for="date">Event date(*)</label>
-						<input type="date" id="date" aria-required="true" required><br>
+						<input type="date" id="date" required><br>
 					</div>	
 
 					<div class="field">
 						Dance Type
-						<input type="radio" name="dance_type" value="classical" checked aria-checked="true" aria-labelledby="classical" role="radiogroup"> Classical 
-						<input type="radio" name="dance_type" value="folk" aria-labelledby="folk" role="radiogroup"  aria-checked="false"> Folk 
+						<input type="radio" name="dance_type" value="classical" checked  > Classical 
+						<input type="radio" name="dance_type" value="folk" > Folk 
 					</div>
 
 					<div class="field">
@@ -105,7 +104,7 @@
 					</div>
 
 	<div class="field">
-		<label for="description">Brief description (*)</label>
+		<label>Brief description (*)</label>
 		<textarea id="desc" name="description" rows="4" cols="50" placeholder="This text will appear in the ad" aria-required="true"></textarea> 						
 	</div>
 
