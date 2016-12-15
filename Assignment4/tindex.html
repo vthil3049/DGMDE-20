@@ -5,9 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Dances of India</title>
 	<script src="https://use.fontawesome.com/6ec538c526.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">	
-	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />	
-	<link href="css/styles.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<!-- <link href="css/styles.css" rel="stylesheet"> -->
 </head>
 <body>
 	<section data-role="page" id="home">
@@ -16,7 +16,7 @@
 			<nav data-role="navbar">
 				<ul>
 					<li><a href="#home" class="ui-btn-active">Home</a></li>
-					<li><a href="#types">Types</a></li>
+					<li><a href="#types" data-transition="slidedown">Types</a></li>
 					<li><a href="#events">Events</a></li>
 				</ul>
 			</nav>
@@ -33,9 +33,9 @@
 					<section>
 						<h3 class="ui-bar ui-bar-a">History</h3>
 						Dance and dance drama were performed not just as pure entertainment. Dances were performed as:
-							
+
 							<br>
-							
+
 							<ol id="reason-list" data-role="listview" data-inset="true">
 								<li class="wrap">
 									a celebration of a happy family event
@@ -44,7 +44,7 @@
 									a celebration for the arrival of monsoons or for the harvesting of a good crop,
 								</li>
 								<li class="wrap">
-									as a tool in education - as stories from epics could be danced, enacted and burned in the minds of the young, 
+									as a tool in education - as stories from epics could be danced, enacted and burned in the minds of the young,
 
 								</li>
 								<li class="wrap">
@@ -53,7 +53,7 @@
 							</ol>
 							<br>
 							Kings and queens encouraged artists in their creativity and accorded an exalted position in their palaces to the performing artists. From the ancient literature, sculptures and paintings it is evident that rich and sophisticated dance traditions abounded everywhere.
-						
+
 					</section>
 					<section>
 						<h3 class="ui-bar ui-bar-a">Types of Dances</h3>
@@ -65,7 +65,7 @@
 							One feature that stands out in any of these performances is - the color, shimmer and glitter that has a truly mesmerizing effect on the observers.
 						</p>
 					</section>
-				</article>	
+				</article>
 				<aside class="ui-block-b">
 					<figure>
 						<a title="Augustus Binu [CC BY-SA 4.0 (http://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AShrinika_performing_Abhinaya_(Kede_Chhanda_Janilu_Tuhi).jpg"><img width="128" alt="Shrinika performing Abhinaya (Kede Chhanda Janilu Tuhi)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Shrinika_performing_Abhinaya_%28Kede_Chhanda_Janilu_Tuhi%29.jpg/128px-Shrinika_performing_Abhinaya_%28Kede_Chhanda_Janilu_Tuhi%29.jpg" title="A little classical dancer" /></a>
@@ -96,7 +96,7 @@
 			<h1>Types of Dances</h1>
 			<nav data-role="navbar">
 				<ul>
-					<li><a href="#home">Home</a></li>
+					<li><a href="#home"  data-transition="slideup">Home</a></li>
 					<li><a href="#types" class="ui-btn-active">Types</a></li>
 					<li><a href="#events">Events</a></li>
 				</ul>
@@ -192,7 +192,7 @@
 									</tr>
 									<tr>
 										<td>
-											North 
+											North
 										</td>
 										<td>
 											Kathak
@@ -259,7 +259,7 @@
 											Kolattam(stick dance)
 										</td>
 										<td>
-											
+
 											<a title="Leepaxton at English Wikipedia [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC BY-SA 4.0-3.0-2.5-2.0-1.0 (http://creativecommons.org/licenses/by-sa/4.0-3.0-2.5-2.0-1.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3APittsburghFolkFestivalIndianDance.jpg"><img width="128" alt="PittsburghFolkFestivalIndianDance" src="https://upload.wikimedia.org/wikipedia/commons/6/69/PittsburghFolkFestivalIndianDance.jpg"/></a>
 
 										</td>
@@ -322,7 +322,7 @@
 			<footer data-role="footer" data-theme="b" data-position="fixed">
 				<h5><i class="fa fa-copyright" aria-hidden="true"></i>&nbsp; www.DancesOfIndia.org </h5>
 			</footer>
-		</section>	
+		</section>
 		<section data-role="page" id="events">
 			<header data-role="header" data-theme="b" data-position="fixed">
 				<h1>Events</h1>
@@ -341,9 +341,9 @@
 			<footer data-role="footer" data-theme="b" data-position="fixed">
 				<h5><i class="fa fa-copyright" aria-hidden="true"></i>&nbsp; www.DancesOfIndia.org </h5>
 			</footer>
-		</section>		
+		</section>
 		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-		<script src="js/home.js"></script>	
+		<script src="js/home.js"></script>
 	</body>
 	</html>
