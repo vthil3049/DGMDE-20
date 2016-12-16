@@ -30,10 +30,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 250%;
 	float:left;
 }
-.social {
+/*.social {
 	float:right;
-	margin-right: 2em;
-}
+	/* margin-right: 2em;
+}*/
 .social a{
 	color:cornsilk;
 }
@@ -66,7 +66,7 @@ header img {
 	float:left;
 	border: 2px solid red;
 	border-radius: 100px;
-	margin: 10px 0 10px 40px;
+	margin: 8px 0 8px 8px;
 
 }
 .floatleft {
@@ -105,7 +105,7 @@ article {
 }
 
 header h1 {
-	width: 30%;
+
 	float: left;
 }
 /*nav {
