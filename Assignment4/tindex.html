@@ -6,20 +6,23 @@
 	<title>Dances of India</title>
 	<script src="https://use.fontawesome.com/6ec538c526.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
-	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" href="css/themes/dance.css" />
+    <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" /> -->
 	<link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
 	<section data-role="page" id="home">
-		<header data-role="header" data-theme="b" data-position="fixed">
+		<header data-role="header" data-theme="c" data-position="fixed">
 			<img id="Nataraj-logo" src="img/Shiva2-small-grayscale.jpg" alt="Nataraj -Image of Shiva as Lord of Dance" title="Shiva as Nataraj- Lord of Dance" />
-			<h1>Dances of India</h1>
+			<h1 class="bigger">Dances of India</h1>
 			<div class="ui-bar">
 				<h4 class="floatright"><a href="https://www.facebook.com" class="ui-btn"><i class="fa fa-facebook-square  fa-2x"></i></a>&nbsp; <a href="https://www.pinterest.com" class="ui-btn"><i class="fa fa-pinterest fa-2x" aria-hidden="true"></i></a></h4>
 			</div>
 			<nav data-role="navbar">
 				<ul>
-					<li><a href="#home" class="ui-btn-active">Home</a></li>
+					<li><a href="#home" class="ui-btn-active  ui-state-persist">Home</a></li>
 					<li><a href="#types" data-transition="slidedown">Types</a></li>
 					<li><a href="#events" data-transition="flip">Events</a></li>
 				</ul>
@@ -71,6 +74,13 @@
 					</section>
 				</article>
 				<aside class="ui-block-b">
+					<div id="mudras" >
+						<h4>Swipe right or left to see other hand gestures</h4>
+						<figure>
+							<a title="By Aruna at ml.wikipedia [GFDL (http://www.gnu.org/copyleft/fdl.html), CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/) or CC BY-SA 2.5-2.0-1.0 (http://creativecommons.org/licenses/by-sa/2.5-2.0-1.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AHasthamudra19.JPG"><img id="hands" width="256" alt="Hasthamudra19" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Hasthamudra19.JPG/256px-Hasthamudra19.JPG"/></a>
+							<figcaption id="img_caption">'Mudra'-hand gesture for a flower</figcaption>
+						</figure>
+					</div>
 					<figure>
 						<a title="Augustus Binu [CC BY-SA 4.0 (http://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AShrinika_performing_Abhinaya_(Kede_Chhanda_Janilu_Tuhi).jpg"><img width="128" alt="Shrinika performing Abhinaya (Kede Chhanda Janilu Tuhi)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Shrinika_performing_Abhinaya_%28Kede_Chhanda_Janilu_Tuhi%29.jpg/128px-Shrinika_performing_Abhinaya_%28Kede_Chhanda_Janilu_Tuhi%29.jpg" title="A little classical dancer" /></a>
 						<figcaption>A little classical dancer</figcaption>
@@ -83,36 +93,33 @@
 						<a title="By Lahirjairams (Own work) [CC BY-SA 4.0 (http://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ABarathanathyam_%2Cdance_for_life.jpg"><img width="256" alt="Barathanathyam ,dance for life" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Barathanathyam_%2Cdance_for_life.jpg/256px-Barathanathyam_%2Cdance_for_life.jpg"/></a>
 						<figcaption>Elaborate eye makeup and jewellery</figcaption>
 					</figure>
-					<figure>
-						<a title="By Aruna at ml.wikipedia [GFDL (http://www.gnu.org/copyleft/fdl.html), CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/) or CC BY-SA 2.5-2.0-1.0 (http://creativecommons.org/licenses/by-sa/2.5-2.0-1.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AHasthamudra19.JPG"><img width="256" alt="Hasthamudra19" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Hasthamudra19.JPG/256px-Hasthamudra19.JPG"/></a>
-						<figcaption>'Mudra'-hand gesture for a flower</figcaption>
-					</figure>
+
 				</aside>
 			</div>
 		</section>
-		<footer data-role="footer" data-theme="b" data-position="fixed" class="ui-bar">
+		<footer data-role="footer" data-theme="c" data-position="fixed" class="ui-bar">
 			<h5><i class="fa fa-copyright" aria-hidden="true"></i>&nbsp; www.DancesOfIndia.org </h5>
 			<a href="#home" id="top_of_home" class="ui-btn ui-icon-arrow-u ui-corner-all ui-btn-icon-notext" data-ajax="false" >Delete</a>
 		</footer>
 	</section>
 
 	<section data-role="page" id="types">
-		<header data-role="header" data-theme="b" data-position="fixed">
+		<header data-role="header" data-theme="c" data-position="fixed">
 			<img id="Nataraj-logo" src="img/Shiva2-small-grayscale.jpg" alt="Nataraj -Image of Shiva as Lord of Dance" title="Shiva as Nataraj- Lord of Dance" />
-			<h1>Types of dances</h1>
+			<h1 class="bigger">Dances of India - Types of dances</h1>
 			<div class="ui-bar">
 				<h4 class="floatright"><a href="https://www.facebook.com" class="ui-btn"><i class="fa fa-facebook-square  fa-2x"></i></a>&nbsp; <a href="https://www.pinterest.com" class="ui-btn"><i class="fa fa-pinterest fa-2x" aria-hidden="true"></i></a></h4>
 			</div>
 			<nav data-role="navbar">
 				<ul>
 					<li><a href="#home"  data-transition="slideup">Home</a></li>
-					<li><a href="#types" class="ui-btn-active">Types</a></li>
+					<li><a href="#types" class="ui-btn-active  ui-state-persist">Types</a></li>
 					<li><a href="#events"data-transition="flip">Events</a></li>
 				</ul>
 			</nav>
 		</header>
 		<section data-role="main" class="ui-content">
-			<div data-role="collapsibleset" data-corners="false" class="ui-grid-a">
+			<div data-role="collapsibleset" data-theme="c" data-corners="false" class="ui-grid-a">
 				<div data-role="collapsible" data-collapsed="false">
 					<h2>Classical</h2>
 					<section>
@@ -326,15 +333,15 @@
 					</div>
 				</div>
 			</section>
-			<footer data-role="footer" data-theme="b" data-position="fixed" class="ui-bar">
+			<footer data-role="footer" data-theme="c" data-position="fixed" class="ui-bar">
 				<h5><i class="fa fa-copyright" aria-hidden="true"></i>&nbsp; www.DancesOfIndia.org </h5>
 				<a href="#types" id="top_of_types" class="ui-btn ui-icon-arrow-u ui-corner-all ui-btn-icon-notext" data-ajax="false" >Delete</a>
 			</footer>
 		</section>
-		<section data-role="page" id="events">
-			<header data-role="header" data-theme="b" data-position="fixed">
+		<section data-role="page" id="events" data-theme="c" >
+			<header data-role="header" data-theme="c" data-position="fixed">
 				<img id="Nataraj-logo" src="img/Shiva2-small-grayscale.jpg" alt="Nataraj -Image of Shiva as Lord of Dance" title="Shiva as Nataraj- Lord of Dance" />
-				<h1>Events</h1>
+				<h1 class="bigger">Dances of India - Events</h1>
 				<div class="ui-bar">
 					<h4 class="floatright"><a href="https://www.facebook.com" class="ui-btn"><i class="fa fa-facebook-square  fa-2x"></i></a>&nbsp; <a href="https://www.pinterest.com" class="ui-btn"><i class="fa fa-pinterest fa-2x" aria-hidden="true"></i></a></h4>
 				</div>
@@ -342,16 +349,16 @@
 					<ul>
 						<li><a href="#home" data-transition="slideup">Home</a></li>
 						<li><a href="#types" data-transition="slideup">Types</a></li>
-						<li><a href="#events" class="ui-btn-active">Events</a></li>
+						<li><a href="#events" class="ui-btn-active  ui-state-persist">Events</a></li>
 					</ul>
 				</nav>
 			</header>
-			<section data-role="main" class="ui-content" id="top">
+			<section data-role="main" class="ui-content" id="top" data-theme="c" >
 				<article>
 					<h2 class="textcenter">Advertise your event on our site</h2>
 					<h3>If you wish to advertise your event on our site, please fill out the form below</h3>
 					<p>Free for qualifying non-profits. A charge of $50.00 per event for others.</p>
-					<form action="#" method="post">
+					<form action="#" method="get" >
 						<legend>Your contact information</legend>
 						<div class="ui-field-contain">
 							<label for="name">Your name(*)</label>
@@ -434,7 +441,7 @@
 			</form>
 		</article>
 	</section>
-	<footer data-role="footer" data-theme="b" data-position="fixed" class="ui-bar">
+	<footer data-role="footer" data-theme="c" data-position="fixed" class="ui-bar">
 		<h5><i class="fa fa-copyright" aria-hidden="true"></i>&nbsp; www.DancesOfIndia.org </h5>
 		<a href="#events" id="top_of_events" class="ui-btn ui-icon-arrow-u ui-corner-all ui-btn-icon-notext" data-ajax="false" >Delete</a>
 	</footer>

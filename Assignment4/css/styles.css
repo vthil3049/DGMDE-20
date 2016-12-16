@@ -23,11 +23,9 @@ h1, h2, h3, h4, h5, h6 {
 	overflow: auto;
 	margin: 0.1em auto;
 }
-.banner {
-		overflow: auto;
-}
-.banner h1 {
-	font-size: 250%;
+
+header h1 {
+	font-size: 150%;
 	float:left;
 }
 /*.social {
@@ -105,55 +103,26 @@ article {
 }
 
 header h1 {
-
+	font-size: 3em;
 	float: left;
 }
-/*nav {
-	font-family: 'Droid Serif', serif;
-	font-size: 1.2em;
-	font-weight: bold;
-	width: 50%;
-	float: right;
-	padding-top: 1.5em;
-}
-nav ul {
-	padding: 0;
-	margin: 0;
-	list-style-type: none;
-	text-align: right;
-}
-nav li {
-	display: inline;
-	padding-right: 0.5em;
-}
-nav a {
-	display: inline-block;
-	text-decoration: none;
-	color: cornsilk;
-	padding: 0.2em 0.6em;
-}
-nav a:hover {
-	color: #ffc;
-	background-color: maroon;
-} */
+
 .selected {
 	border-top: 2px solid cornsilk;
 }
-/*section :first-child::first-letter {
-	font-weight: bold;
-	font-size: 3em;
-	float: left;
-}*/
+
 section {
 
 	overflow: auto;
+}
+.bigger {
+	font-size: 150%;
 }
 section p:first-of-type::first-letter {
 	font-family: 'Droid Serif', serif;
 	font-weight: bold;
 	font-size: 3em;
-	/*float: left;*/
-}
+	}
 
 .ui-field-contain p:first-of-type::first-letter {
 	font-family: 'Droid Serif', serif;
@@ -291,7 +260,10 @@ fieldset legend {
 	color: maroon;
 	/*float: left;*/
 }
-
+#mudras {
+	border: 2px solid maroon;
+	margin: 0.5em;
+}
 .wrap {
     white-space: normal !important;
 }
