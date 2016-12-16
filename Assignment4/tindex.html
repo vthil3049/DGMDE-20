@@ -7,7 +7,7 @@
 	<script src="https://use.fontawesome.com/6ec538c526.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
-	<!-- <link href="css/styles.css" rel="stylesheet"> -->
+	<link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
 	<section data-role="page" id="home">
@@ -34,25 +34,25 @@
 						<h3 class="ui-bar ui-bar-a">History</h3>
 						Dance and dance drama were performed not just as pure entertainment. Dances were performed as:
 
-							<br>
+						<br>
 
-							<ol id="reason-list" data-role="listview" data-inset="true">
-								<li class="wrap">
-									a celebration of a happy family event
-								</li>
-								<li class="wrap">
-									a celebration for the arrival of monsoons or for the harvesting of a good crop,
-								</li>
-								<li class="wrap">
-									as a tool in education - as stories from epics could be danced, enacted and burned in the minds of the young,
+						<ol id="reason-list" data-role="listview" data-inset="true">
+							<li class="wrap">
+								a celebration of a happy family event
+							</li>
+							<li class="wrap">
+								a celebration for the arrival of monsoons or for the harvesting of a good crop,
+							</li>
+							<li class="wrap">
+								as a tool in education - as stories from epics could be danced, enacted and burned in the minds of the young,
 
-								</li>
-								<li class="wrap">
-									as a form of worship - learnt and performed in its purest form to please the gods and the audience.
-								</li>
-							</ol>
-							<br>
-							Kings and queens encouraged artists in their creativity and accorded an exalted position in their palaces to the performing artists. From the ancient literature, sculptures and paintings it is evident that rich and sophisticated dance traditions abounded everywhere.
+							</li>
+							<li class="wrap">
+								as a form of worship - learnt and performed in its purest form to please the gods and the audience.
+							</li>
+						</ol>
+						<br>
+						Kings and queens encouraged artists in their creativity and accorded an exalted position in their palaces to the performing artists. From the ancient literature, sculptures and paintings it is evident that rich and sophisticated dance traditions abounded everywhere.
 
 					</section>
 					<section>
@@ -334,12 +334,98 @@
 					</ul>
 				</nav>
 			</header>
-			<section data-role="main" class="ui-content">
+			<section data-role="main" class="ui-content" id="top">
+				<article>
+					<h2 class="textcenter">Advertise your event on our site</h2>
+					<h3>If you wish to advertise your event on our site, please fill out the form below</h3>
+					<p>Free for qualifying non-profits. A charge of $50.00 per event for others.</p>
+					<form action="#" method="post">
+						<legend>Your contact information</legend>
+						<div class="ui-field-contain">
+							<label for="name">Your name(*)</label>
+							<input type="text" id="name" name="name" autofocus><br>
+						</div>
+						<div class="ui-field-contain">
+							<label for="org_name">Organization Name(*)</label>
+							<input type="text" id="org_name" required><br>
+						</div>
+						<div class="ui-field-contain">
+							<label for="org_website">Your web site</label>
+							<input type="url" name="org_website" id="org_website" placeholder="http://www.example.com"><br>
+						</div>
+						<div class="ui-field-contain">
+							<label for="phone">Phone number</label>
+							<input type="tel" id="phone" placeholder="123-456-7890" required><br>
+						</div>
 
+						<div class="ui-field-contain">
+							<label for="email">Email</label>
+							<input type="email" id="email" required><br>
+						</div>
+						<fieldset class="ui-field-contain">
+							<label for="org_type">Are you a non-profit?</label>
+							<select name="org_type" id="org_type" data-role="flipswitch">
+								<option value="No" selected="selected">No</option>
+								<option value="Yes">Yes</option>
+							</select>
+						</fieldset>
+						<div class="ui-field-contain">
+							<p id="pay_info">Please make a check for $50.00 payable to: 'DancesOfIndia.org" and mail it to:						</p>
+							<address id="pay_address">
+								40 Main Street<br>
+								Concord, MA 02333
+							</address>
+						</div>
+						<div class="ui-field-contain">
+							<label for="event_name">Name of your event (*)</label>
+							<input type="text" id="event_name" required>
+						</div>
 
+						<div class="ui-field-contain">
+							<label for="date">Event date(*)</label>
+							<input type="date" id="date" min="2016-12-17" required><br>
+						</div>
+
+						<div class="ui-field-contain" data-role="controlgroup" data-type="horizontal">
+							<legend>Select the dance category</legend>
+							 <label for="f_classical">Classical</label>
+							<input type="radio" id = "f_classical" name="dance_type" value="classical" checked  />
+							 <label for="f_folk">Folk</label>
+							<input type="radio" id = "f_folk" name="dance_type" value="folk"  />
+						</div>
+						<!-- <fieldset class="ui-field-contain">
+							<label for="select1">Basic Select Menu:</label>
+							<select name="select1" id="select1">
+								<option value="value1">Value 1</option>
+								<option value="value2" disabled="disabled">Value 2</option>
+								<option value="value3">Value 3</option>
+								<option value="value4">Value 4</option>
+							</select>
+						</fieldset> -->
+						<fieldset class="ui-field-contain">
+							<label for="sub_type">Subcategory</label>
+							<select id="sub_type" name="sub_type">
+								<option selected>Select one...</option>
+								<option value="bharatanatyam">Bharatanatyam</option>
+								<option value="kuchipudi">Kuchipudi</option>
+								<option value="mohiniattam">Mohiniattam</option>
+								<option value="kathak">Kathak</option>
+							</select>
+						</fieldset>
+
+						<div class="ui-field-contain">
+							<label>Brief description (*)</label>
+							<textarea id="desc" name="description" rows="4" cols="50" placeholder="This text will appear in the ad" aria-required="true"></textarea>
+						</div>
+						<div class="ui-field-contain">
+							<button class="ui-btn ui-btn-inline" id="event_submit" type="submit">Submit</button>
+						</div>
+					</form>
+				</article>
 			</section>
 			<footer data-role="footer" data-theme="b" data-position="fixed">
 				<h5><i class="fa fa-copyright" aria-hidden="true"></i>&nbsp; www.DancesOfIndia.org </h5>
+				<a href="#events" id="top_of_events" class="ui-btn ui-icon-arrow-u ui-corner-all ui-btn-icon-notext" data-ajax="false" >Delete</a>
 			</footer>
 		</section>
 		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>

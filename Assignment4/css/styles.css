@@ -154,6 +154,13 @@ section p:first-of-type::first-letter {
 	font-size: 3em;
 	/*float: left;*/
 }
+
+.ui-field-contain p:first-of-type::first-letter {
+	font-family: 'Droid Serif', serif;
+	font-weight: bold;
+	font-size: 1em;
+}
+
 blockquote {
 	padding: 1em;
 	margin-left: 0;
@@ -183,16 +190,16 @@ blockquote cite {
 footer {
 	background-color: navy;
 	color:cornsilk;
-	text-align: center;
+
 	padding: 1em 5em;
 	border-top: 50px solid maroon;
-	border-image: url(Diwali_odisha_rangoli.jpg);
+
 }
 
-/*footer{
-	border-top: 50px solid red;
-	border-image: url(Diwali_odisha_rangoli.jpg);
-}*/
+footer h5 {
+		text-align: center;
+}
+
 
 #borderimg1 {
     border: 10px solid maroon;
@@ -283,16 +290,6 @@ fieldset legend {
 	font-size: 1em;
 	color: maroon;
 	/*float: left;*/
-}
-
-
-
-#dcanvas {
-	background-color: 'aliceblue';
-	margin: auto;
-}
-#gestures {
-	text-align: center;
 }
 
 .wrap {
