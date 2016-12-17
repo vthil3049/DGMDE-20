@@ -9,7 +9,8 @@ The form is located here: #events____ and the modifications I used are __flipswi
 The jQuery Mobile events I used on my site include: swipe right/swipeleft, flipswitch 'on change', select group 'on change'____ They are located here: _home.js(41, 57, 103,117)___
 
 My week 14 jQuery UI assignment is located at this/these URL(s): http://vanit.sgedu.site/E20/A4/gallery.html___
-My custom theme is applied on this page _gallery.html__ line number(s) 6,7,8___ 
+
+My custom theme is applied on this page _http://vanit.sgedu.site/E20/A4/gallery.html_____ line number(s) 6,7,8___ 
 My interaction is ____ applied on this page ____ line number(s) ____ (HTML and JS please!)
 My widget is __Tabs__ applied on this page _gallery.html(Line 16)_ & gallery.js (Line 11)line number(s) ____ (HTML and JS please!)
 My effect is ____ applied on this page ____ line number(s) ____ (HTML and JS please!)

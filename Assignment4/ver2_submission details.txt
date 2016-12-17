@@ -2,14 +2,16 @@ In the comment, please complete the following:
 
 My week 12-13 jQuery Mobile assignment is located at this/these URL(s):http://vanit.sgedu.site/E20/A4/tindex.html ____
 Grid system is located on this/these page(s): #home__starting at line 32__
-Button and/or icon is located here: header bar social icons and button to "Image Gallery"(JQuery UI page)___
+Button and/or icon is located here: header bar social icons and button to "Image Gallery"(JQuery UI page)___There is a "Scroll to top" button at the bottom left of the page which disables the default ajax.
+
 My two widgets are _listview__ and __collapsible sets_ and they are located on these pages: #home & #types___
 My custom theme is applied on this page #home, #types, #events__ line number _17, 101, 108, __ 
 The form is located here: #events____ and the modifications I used are __flipswitch_ and horizontal control group___ HTML line numbers _389,410___
 The jQuery Mobile events I used on my site include: swipe right/swipeleft, flipswitch 'on change', select group 'on change'____ They are located here: _home.js(41, 57, 103,117)___
 
 My week 14 jQuery UI assignment is located at this/these URL(s): http://vanit.sgedu.site/E20/A4/gallery.html___
-My custom theme is applied on this page _gallery.html__ line number(s) 6,7,8___ 
-My interaction is ____ applied on this page ____ line number(s) ____ (HTML and JS please!)
+
+My custom theme is applied on this page _http://vanit.sgedu.site/E20/A4/gallery.html_____ line number(s) 6,7,8___ 
+My interaction is __draggable, click, dblclick__ applied on this page __gallery.html(divs in lines 35 thru 70)__ line number(s) __gallery.js(line 35)__ (HTML and JS please!)
 My widget is __Tabs__ applied on this page _gallery.html(Line 16)_ & gallery.js (Line 11)line number(s) ____ (HTML and JS please!)
-My effect is ____ applied on this page ____ line number(s) ____ (HTML and JS please!)
+My effect is _toggle, scale___ applied on this page __gallery.html(img tags in the gallery)_gallery.js(36 & 45)_ line number(s) ____ (HTML and JS please!)

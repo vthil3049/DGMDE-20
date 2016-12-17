@@ -8,7 +8,7 @@ $(document).ready(function(){
 			alt:"Blossoming Flower",
 			desc:"Blossoming Flower"
 		},
-		
+
 		{
 			id:1,
 			src:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Hasthamudra11.JPG/256px-Hasthamudra11.JPG",
@@ -70,22 +70,6 @@ $(document).ready(function(){
 		$('#img_caption').text(imageInfo.desc);
 	});
 
-	// $('#hands').click(function(event) {
-	// 	$(this).removeAttr('src');
-	// 	$(this).removeAttr('alt');
-	// 	$(this).removeAttr('title');
-	// 	currIndex++;
-	// 	if (currIndex > 3)
-	// 	{
-	// 		currIndex=0;
-	// 	}
-	// 	var imageInfo = image_list[currIndex];
-	// 	console.log(imageInfo);
-	// 	$(this).attr('src', imageInfo.src+"?"+ Math.random());
-	// 	$(this).attr('alt', imageInfo.alt);
-	// 	$(this).attr('title', imageInfo.desc);
-	// 	$('#img_caption').text(imageInfo.desc);
-	// });
 
 	function removeAttributes(element)
 	{
